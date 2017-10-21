@@ -1,1 +1,8 @@
 language: java
+deploy:
+  api-key:
+    secure: 4MgaiGMIpGhKK5NPLI+9EvEBjr3Hj1hHwYY7+KpQkiX/XczAJexgv/LkFFY9d7K4QJM1hrzNT376/UicUQqcLWW8YXnQk87IiiHmxhKFH2IjxZ6EeVkzc96wXggEnwRt6RmX80WAlvKoHszmO4Iw7mZQvSoOOt9b1wmixCHkei65Zz5Ft9rWE9lD134IhTdmqA6OVaD0Y7i9qrm1BbTzmLLCLA33h7KiMKo1Bb/bb0ybCCACNKKrDr7t8IyWK7TPGcxk5gpo4yCjDh9D8+PhAtGFMmuhA3yOdj+NNDae6PnkiPK4Anxol5OhZ0AX2tbK1GwAdQmfDI8FwkKN843ozTWWspOvGkYTGO26+Rc3xIeHygm53yQl0DENBw9iqTPmNtezmj9RPxxYVV+td8ll6WGJ03Oci+/Ysxctt4DLc3Hrbyh+xkiJHJ64xHuZyCPggZ/miyUgH/Im2cRYcb2FXjFIE9sCE3mPN+nKWZnwwQXDKPecgqL7ONC5hxEdadi55JskWjpjx+pqrTAuiydzUe04zxgz+FXL/GhmC94mzc0VVLO9bzVGUiHbdtdbTYwgplAiFuqP9sX1FzUnrX4HiIJZUOQCS4+gc7FJIV8tnAN7z1iirbNCSoFL/e4bY9qwh50tnI5/13eQ/7syHCD2EIJQrElgSQOaZd88uaWmniY=
+  provider: heroku
+  app:
+    staging: llucca-tr-filmes-staging
+    mater: llucca-tri-filmes-production
