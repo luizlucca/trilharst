@@ -5,4 +5,4 @@ deploy:
   provider: heroku
   app:
     staging: llucca-tr-filmes-staging
-    mater: llucca-tri-filmes-production
+    master: llucca-tri-filmes-production
